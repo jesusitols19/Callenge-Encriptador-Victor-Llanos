@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" alt="logo de alura" class="logo">
+
+        </header>
+
+        <main>
+
+            <section>
+               <textarea class = "text-area" cols ="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+               <div>
+                    <h6 class="informacion"> solo letras minusculas y sin acento</h6>
+               
+                </div>
+
+                <div class = "botones">
+                    <button class = "btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    
+                    <button class = "btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+                </div>
+            </section>
+
+
+
+            <section>
+                <textarea id="miTexto" class = "mensaje" cols ="20" rows="10"></textarea>
+                <div>
+                    <button class = "copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer>
+            Desarrollador por Victor Jesus Llanos - Alura Latam
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
