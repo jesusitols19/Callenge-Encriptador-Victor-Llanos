@@ -28,7 +28,7 @@ Este proyecto es un encriptador de textos simple, desarrollado como parte del ch
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    git clone https://github.com/jesusitols19/Callenge-Encriptador-Victor-Llanos.git
     ```
 2. Abre el archivo `index.html` en tu navegador.
 
